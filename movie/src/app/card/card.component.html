@@ -1,0 +1,9 @@
+<div class='card_div'>
+    <div class='card_component' *ngFor="let item of cardData">
+      <a [routerLink] = "['/movie',item.id]">
+      <img src="{{item.image}}" height="400px" width="270px" alt='Movie Poster'>
+        <p style="margin-left: 5px;font-size:large">{{item.name}}</p>
+        <p ><span style='color: gray;'>Year:</span> {{item.year}}</p>
+      </a>
+    </div>
+  </div>

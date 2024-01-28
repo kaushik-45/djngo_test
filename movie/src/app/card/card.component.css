@@ -1,0 +1,27 @@
+
+
+
+ .card_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  .card_component {
+    background-color: rgb(93, 90, 90);
+     width: 270px;
+    height: 480px;
+    margin-top: 10px;
+  }
+  
+  .card_component:hover {
+    transform: translateY(-3px);
+  }
+  
+ 
+  
+  a{
+    text-decoration: none;
+    color: inherit;
+  }

@@ -1,0 +1,10 @@
+.desc{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+    
+}
+.det{
+    margin-left: 15px;
+    margin-right: 400px;
+}
